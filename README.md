@@ -43,7 +43,7 @@ This project is a simple e-commerce UI app built with React Native and Expo. The
 1. **Clone the repository:**
     ```bash
 
-    git clone https://github.com/richy-andoh/rn-assignment6-11254304.git
+    git clone https://github.com/richy-andoh/rn-assignment6-11285821.git
 
     cd rn-assignment6-11285821
 
