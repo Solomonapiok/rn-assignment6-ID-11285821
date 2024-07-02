@@ -107,71 +107,7 @@ const PRODUCTS = [
         price: "$ 150",
         image: 'https://example.com/image15.jpg',
     },
-    {
-        id: '16',
-        name: 'Wool Hat',
-        description: 'A warm wool hat for the winter season.',
-        price: "$ 150",
-        image: 'https://example.com/image16.jpg',
-    },
-    {
-        id: '17',
-        name: 'Flannel Shirt',
-        description: 'A classic flannel shirt for everyday wear.',
-        price: "$ 150",
-        image: 'https://example.com/image17.jpg',
-    },
-    {
-        id: '18',
-        name: 'Down Vest',
-        description: 'A lightweight down vest for added warmth.',
-        price: "$ 130",
-        image: 'https://example.com/image18.jpg',
-    },
-    {
-        id: '19',
-        name: 'Canvas Tote Bag',
-        description: 'A spacious and durable canvas tote bag.',
-        price: "$ 20",
-        image: 'https://example.com/image19.jpg',
-    },
-    {
-        id: '20',
-        name: 'Nylon Windbreaker',
-        description: 'A lightweight nylon windbreaker for windy days.',
-        price: "$ 65",
-        image: 'https://example.com/image20.jpg',
-    },
-    {
-        id: '21',
-        name: 'Wool Sweater',
-        description: 'A cozy wool sweater for the winter season.',
-        price: "$ 85",
-        image: 'https://example.com/image21.jpg',
-    },
-    {
-        id: '22',
-        name: 'Corduroy Pants',
-        description: 'Comfortable and stylish corduroy pants.',
-        price: "$ 55",
-        image: 'https://example.com/image22.jpg',
-    },
-    {
-        id: '23',
-        name: 'Polyester Raincoat',
-        description: 'A waterproof polyester raincoat for rainy days.',
-        price: "$ 95",
-        image: 'https://example.com/image23.jpg',
-    },
-    {
-        id: '24',
-        name: 'Cotton Polo Shirt',
-        description: 'A classic cotton polo shirt for everyday wear.',
-        price: "$ 35",
-        image: 'https://example.com/image24.jpg',
-    },
-    {
-        id: '25',
+   {     id: '25',
         name: 'Linen Trousers',
         description: 'Light and breathable linen trousers for summer.',
         price: "$ 50",
@@ -213,23 +149,6 @@ const Product = () => {
             )}
   scrollEnabled={false}
         />
-
-        // <View style={styles.container}>
-    //   <FlatList
-    //     data={PRODUCTS}
-    //     keyExtractor={(item) => item.id}
-    //     renderItem={({ item }) => (
-    //       <TouchableOpacity>
-    //         <View style={styles.product}>
-    //           <Image source={{ uri: item.image }} style={styles.image} />
-    //           <Text style={styles.name}>{item.name}</Text>
-    //           <Text style={styles.price}>${item.price}</Text>
-    //         </View>
-    //       </TouchableOpacity>
-    //     )}
-    //   />
-    //   <Button title="Go to Checkout" onPress={() => navigation.navigate('Checkout')} />
-    // </View>
     )
 }
 export default Product;

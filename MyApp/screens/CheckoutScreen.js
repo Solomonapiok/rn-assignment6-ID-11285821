@@ -3,10 +3,14 @@ import Logo from "../assets/Logo.png";
 import Ionicons from "react-native-vector-icons/Ionicons"
 import CheckoutProduct from "../components/CheckoutProduct";
 import shoppingBag from "../assets/shoppingBag.png"
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const CheckoutScreen = ({ navigation }) => {
     return (
-            <View style={styles.container}>
+        // <SafeAreaProvider>
+        // <SafeAreaView>
+                        <View style={styles.container}>
                 <View style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginTop: 20, }}>
                     <View>
 
@@ -41,6 +45,8 @@ const CheckoutScreen = ({ navigation }) => {
                     </View>
                 </View>
             </View>
+        // </SafeAreaView>
+        // </SafeAreaProvider>
     );
 }
 

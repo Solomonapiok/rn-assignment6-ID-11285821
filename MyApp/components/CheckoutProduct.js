@@ -16,34 +16,7 @@ const CHECKOUTPRODUCTS = [
         price: "$ 150",
         image: require("../assets/dress2.png"),
     },
-    // {
-    //     id: '3',
-    //     name: 'Church Wear',
-    //     description: 'Reversible Angora Cardigan',
-    //     price: "$ 150",
-    //     image: require("../assets/dress3.png"),
-    // },
-    // {
-    //     id: '4',
-    //     name: 'Lamerei',
-    //     description: 'Reversible Angora Cardigan',
-    //     price: "$ 150",
-    //     image: require("../assets/dress4.png"),
-    // },
-    // {
-    //     id: '5',
-    //     name: '21WN',
-    //     description: 'Reversible Angora Cardigan',
-    //     price: "$ 150",
-    //     image: require("../assets/dress5.png"),
-    // },
-    // {
-    //     id: '6',
-    //     nname: 'Lopo',
-    //     description: 'Reversible Angora Cardigan',
-    //     price: "$ 150",
-    //     image: require("../assets/dress6.png"),
-    // },
+    
 ];
 
 const CheckoutItem = ({ name, description, price, image }) => {
@@ -82,22 +55,7 @@ const CheckoutProduct = () => {
             scrollEnabled={false}
         />
 
-        // <View style={styles.container}>
-        //   <FlatList
-        //     data={PRODUCTS}
-        //     keyExtractor={(item) => item.id}
-        //     renderItem={({ item }) => (
-        //       <TouchableOpacity>
-        //         <View style={styles.product}>
-        //           <Image source={{ uri: item.image }} style={styles.image} />
-        //           <Text style={styles.name}>{item.name}</Text>
-        //           <Text style={styles.price}>${item.price}</Text>
-        //         </View>
-        //       </TouchableOpacity>
-        //     )}
-        //   />
-        //   <Button title="Go to Checkout" onPress={() => navigation.navigate('Checkout')} />
-        // </View>
+       
     )
 }
 export default CheckoutProduct;
@@ -114,17 +72,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         marginTop: 26
     },
-    // product: {
-    //   marginBottom: 20,
-    //   backgroundColor: '#fff',
-    //   padding: 10,
-    //   borderRadius: 5,
-    //   shadowColor: '#000',
-    //   shadowOpacity: 0.1,
-    //   shadowOffset: { width: 0, height: 1 },
-    //   shadowRadius: 5,
-    //   elevation: 2,
-    // },
     image: {
         borderRadius: 5,
         height: 210,

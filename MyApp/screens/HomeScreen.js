@@ -13,23 +13,7 @@ export default function HomeScreen({ navigation }) {
             </SafeAreaView>
         </ScrollView>
 
-
-        // <View style={styles.container}>
-        //   <FlatList
-        //     data={PRODUCTS}
-        //     keyExtractor={(item) => item.id}
-        //     renderItem={({ item }) => (
-        //       <TouchableOpacity>
-        //         <View style={styles.product}>
-        //           <Image source={{ uri: item.image }} style={styles.image} />
-        //           <Text style={styles.name}>{item.name}</Text>
-        //           <Text style={styles.price}>${item.price}</Text>
-        //         </View>
-        //       </TouchableOpacity>
-        //     )}
-        //   />
-        //   <Button title="Go to Checkout" onPress={() => navigation.navigate('Checkout')} />
-        // </View>
+        
     );
 }
 
