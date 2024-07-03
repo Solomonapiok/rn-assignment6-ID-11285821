@@ -31,10 +31,12 @@ This project is a simple e-commerce UI app built with React Native and Expo. The
 
 ### Home Screen
 
-![alt text](MyApp/assets/screenshot1.png)
+![screenshot1](https://github.com/Solomonapiok/rn-assignment6-ID-11285821/assets/170146155/bb288eac-7360-4c3b-9421-0373de954088)
+
 
 ### Checkout Screen
-![alt text](MyApp/assets/screenshot2.png)
+![screenshot2](https://github.com/Solomonapiok/rn-assignment6-ID-11285821/assets/170146155/2fc0bf2a-ef46-4109-bb7c-8dbbf377fe53)
+
 
 
 ## Installation
