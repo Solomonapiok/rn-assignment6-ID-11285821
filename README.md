@@ -35,7 +35,8 @@ This project is a simple e-commerce UI app built with React Native and Expo. The
 
 
 ### Checkout Screen
-![screenshot2](https://github.com/Solomonapiok/rn-assignment6-ID-11285821/assets/170146155/2fc0bf2a-ef46-4109-bb7c-8dbbf377fe53)
+![screenshot2](https://github.com/Solomonapiok/rn-assignment6-ID-11285821/assets/170146155/fae72e9f-76a9-4dd7-bb23-6ba69fdfde5a)
+
 
 
 
