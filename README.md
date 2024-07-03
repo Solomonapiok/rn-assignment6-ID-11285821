@@ -31,12 +31,12 @@ This project is a simple e-commerce UI app built with React Native and Expo. The
 
 ### Home Screen
 
-![alt text](screenshot1.png)
+"C:\Users\user\Downloads\rn-assignment6-ID-11285821\MyApp\assets\screenshot1.png"
 
 
 ### Checkout Screen
-![alt text](screenshot2.png)
 
+"C:\Users\user\Downloads\rn-assignment6-ID-11285821\MyApp\assets\screenshot2.png"
 
 ## Installation
 - npm install
